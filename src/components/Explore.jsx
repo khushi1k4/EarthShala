@@ -49,7 +49,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(ocean-1.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/ocean-1.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -76,7 +76,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(ocean-2.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/ocean-2.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -101,7 +101,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(river-3.png)] bg-cover bg-no-repeat text-white rounded-md ">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md " style={{ backgroundImage: "url('/river-3.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -125,7 +125,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(lake.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/lake.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -149,7 +149,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(lake-2.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/lake-2.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -173,7 +173,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(glacier.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/glacier.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -197,7 +197,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(spring.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/spring.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -220,7 +220,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(dam.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/dam.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -242,7 +242,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-75 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(bridge.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/bridge.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -283,7 +283,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(mountain-1.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/mountain-1.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -308,7 +308,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(hills.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/hills.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -333,7 +333,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(plateau.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/plateau.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -358,7 +358,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(plains.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/plains.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -384,7 +384,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(desert-1.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/desert-1.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -409,7 +409,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(valley.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/valley.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -434,7 +434,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(island.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/island.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -459,7 +459,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(peninsula.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/peninsula.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -483,7 +483,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-75 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(deltas.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/deltas.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -521,7 +521,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(mountain-2.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/mountain-2.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -547,7 +547,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(finland.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/finland.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -574,7 +574,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(waterfall-1.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/waterfall-1.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -599,7 +599,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(coralReef.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/coralReef.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -625,7 +625,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(caves.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/caves.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -651,7 +651,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(grandCanyon.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/grandCanyon.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -676,7 +676,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(hotSpring.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/hotSpring.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -717,7 +717,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 shadow-md shadow-gray-500 rounded-md">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(amazonForest.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/amazonForest.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -743,7 +743,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(nationalParks.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/nationalParks.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -768,7 +768,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(wetLands.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/wetLands.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -794,7 +794,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(wildLifeSantuary.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/wildLifeSantuary.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
@@ -819,7 +819,7 @@ function Explore() {
             <div className="absolute w-full h-full transition-transform duration-500 ease-linear preserve-3d group hover:rotate-y-180 rounded-md shadow-md shadow-gray-500">
     
             {/* Front Side */}
-            <div className="absolute w-full h-full backface-hidden bg-[url(BiggestAquarium.png)] bg-cover bg-no-repeat text-white rounded-md">
+            <div className="absolute w-full h-full backface-hidden bg-cover bg-no-repeat text-white rounded-md" style={{ backgroundImage: "url('/BiggestAquarium.png')" }}>
             {/* Optional: Add text or icon */}
             </div>
 
