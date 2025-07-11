@@ -23,7 +23,6 @@ import rope2 from '../assets/ropeCourse-2.png';
 import scuba from '../assets/scubaDiving.png';
 import sea from '../assets/sea-1.png';
 import skiing from '../assets/skiing.png';
-import skyDive from '../assets/skyDiving.png';
 import snowRid from '../assets/snowRiding.png';
 import trampolin from '../assets/trampolinePark.png';
 import trek from '../assets/treking.png';
@@ -35,6 +34,7 @@ import sport4 from '../assets/waterSport-4.png';
 import ziplin from '../assets/zipLining.png';
 import ropeClimbing from '../assets/ropeClimbing.png';
 import bonFire from'../assets/bonfire.png';
+import skyDiving from '../assets/skydiving.png';
 
 const Fun = () => {
   return (
@@ -48,7 +48,7 @@ const Fun = () => {
         </div>
         <div className="lg:col-span-2 item bg-no-repeat bg-bottom min-h-64 bg-size-[150%] hover:bg-position-[60%_50%] transition-all duration-500" style={{ backgroundImage: `url(${bonFire})` }}>BONFIRE</div>
         <div className="lg:row-span-2 col-span-1 h-full min-h-[300px] item bg-cover bg-center w-full" style={{ backgroundImage: `url(${ropeClimbing})` }}>ROPE CLIMBING GYM</div>
-        <div className='lg:col-span-2 item bg-no-repeat bg-top min-h-64 w-full bg-size-[150%] hover:bg-position-[60%_50%] transition-all duration-500' style={{ backgroundImage: `url(${skyDive})` }}>SKY-DIVING</div>
+        <div className='lg:col-span-2 item bg-no-repeat bg-top min-h-64 w-full bg-size-[150%] hover:bg-position-[60%_50%] transition-all duration-500' style={{ backgroundImage: `url(${skyDiving})` }}>SKY-DIVING</div>
         <div className='item bg-cover bg-center min-h-64 w-full' style={{ backgroundImage: `url(${vietnamBoat})` }}>BAMBOO BOAT AT VIETNAM</div>
         <div className='item bg-no-repeat bg-topleft min-h-64 w-full bg-size-[150%] hover:bg-position-[60%_50%] transition-all duration-500' style={{ backgroundImage: `url(${sport1})` }}>FLY BOARD</div>
         <div className='item bg-cover bg-center min-h-64 w-full' style={{ backgroundImage: `url(${camp})` }}>CAMPING</div>
