@@ -24,7 +24,7 @@ import scuba from '../assets/scubaDiving.png';
 import sea from '../assets/sea-1.png';
 import skiing from '../assets/skiing.png';
 import snowRid from '../assets/snowRiding.png';
-import trampolin from '../assets/trampolinePark.png';
+import trampolin from '../assets/trampolinepark.png';
 import trek from '../assets/treking.png';
 import vietnam from '../assets/vietnam.png';
 import waterPark from '../assets/waterPark.png';
