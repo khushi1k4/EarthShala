@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.bucket{
+  display: grid;
+  gap: 1.5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-top: 2px;
+  padding-bottom: 120px;
+}
+
+.item{
+  display: flex;
+  object-fit: cover;
+  filter: brightness(0.9);
+  border-radius: 1px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 15px;
+  color: white;
+  -webkit-text-stroke: 0.5px red; /* Stroke width and color */
+  text-shadow: 2px grey;
+  font-weight: bold;
+  font-size: larger;
+}
+.item:hover{
+  opacity: 0.7;
+  filter: brightness(1.1);
+  color: bisque;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE10+/Edge */
+}
+
+.gossip{
+  padding-top: 8px;
+  margin-left: 30px;
+  padding-left: 18px;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+
+.conversation{
+  padding-bottom: 60px;
+}
+
+.set{
+  margin-left: 15px;
+}
+
+.g-1, .g-2{
+  margin-top: 12px;
+}
+
+.news{
+  margin-right: 15px;
+}
+
+.magicBox{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cardBox{
+  padding-bottom: 70px;
+}
+
+.head{
+  padding-top: 35px;
+}
+
+.intro{
+  padding-right: 10vw;
+  padding-bottom: 40px;
+  margin-bottom: 200px;
+  width: 100vw; 
+  height: auto;
+}
+
+.loveEarth{
+  height: 120%;
+  margin: 40px;
+  width: 80%;
+}
+
+.q-1{
+  padding-top: 80px;
+}
+
+.q-2{
+  padding-top: 30px;
+}
+
+.intro-1, .intro-2{
+  padding-left: 8vw;
+}
+
+.earthExp{
+  padding-bottom: 12vh;
+}
+
+.earth{
+  padding-right: 8vw;
+  margin-left: 8vw;
+  margin-top: 4vh;
+}
+
+.geography{
+  margin-top: 6vh;
+  padding-bottom: 10vh;
+}
+
+.geoHead{
+  margin-top: 8px;
+  margin-bottom: 8vh;
+}
+
+.perspective {
+  perspective: 1000px;
+  margin: 12px;     /* Space around each card */
+  padding: 10px;    /* Optional inner padding inside the card */
+}
+
+.hydro{
+  margin-bottom: 1vh;
+  margin-top: 10vh;
+}
+
+.disclaim{
+  margin-bottom: 4vh;
+}
+
+.cardMasala{
+  padding-left: 1vw;
+  padding-right: 0.5vw;
+  line-height: 1.9vh;
+}
+
+.listMasala{
+  font-size: 90%;
+  
+}

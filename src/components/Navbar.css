@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+  position: 0; /* sits on top of the video */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    z-index: 2;
+    width: 100vw;
+    height: auto;
+}
+
+li a{
+    margin: 3px;
+    padding: 7px;
+    -webkit-text-fill-color: rgb(151, 85, 10); /* Light Blue */
+    text-shadow: grey 1px 1px;
+    text-decoration: none;
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+li a:hover{
+  color: grey;
+}
+
+.home-nav li a {
+  -webkit-text-fill-color: rgb(254, 104, 49);
+    text-shadow: gray 1px 1px;
+}
+
+.home-nav li a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(3, 43, 3, 0.353);
+    padding: 15px 0;
+    top: 0;
+    left: 0;
+    bottom:0;
+  }
+
+  li a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+/* .navbar.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.navbar.solid {
+  position: relative;
+  color: white;
+} */
+
+.page-content {
+  padding-top: 80px; /* Equal to navbar height */
+}

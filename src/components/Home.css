@@ -1,0 +1,1326 @@
+html,body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    /* height: 100vh; */
+}
+
+.box
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.video-section{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh; */
+    /* width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../assets/boating.gif); */
+}
+
+@media(min-aspect-ratio: 16/9)
+{
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.content{
+    /* display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px; */
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.earthshala{
+    font-size: 92px;
+    font-weight: 500;
+    padding: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color:  rgb(184, 247, 255);
+    -webkit-text-stroke-width: 0.5px;
+}
+
+h4{
+    font-size: 50px;
+    font-family: Cervo Neue, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-fill-color: rgb(184, 247, 255);
+    font-weight: bold;
+    /* text-shadow: red 1px 1px; */
+    -webkit-text-stroke-color: green;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+#start{
+    width:250px;
+    height: 55px;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(165, 42, 42, 0.145);
+    margin-top: 85px;
+    border: rgba(117, 8, 8, 0.902) solid 2px;
+    border-radius: 15px;
+    font-weight: 500;
+    box-shadow: -1px 0.5px 0.5px 0.5px rgba(138, 46, 9, 0.865);
+    color: rgba(119, 13, 13, 0.965);
+    animation: pulseGlow 2s infinite;
+}
+
+.downArrow{
+    margin-top: 300px;
+    width: 80px;
+    margin: 40px;
+    background: transparent;
+    animation: pulseGlow 2s infinite;
+    margin-left: 48%;
+}
+
+.bg{
+    background: url(../assets/bg-image.png);
+    opacity: 0.85;
+    /* position: absolute; */
+    /* filter:grayscale(10); */
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+} 
+
+/* .body::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 500 100' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,30 C150,80 350,-20 500,30 L500,100 L0,100 Z' fill='%23ffffff'/%3E%3C/svg%3E")
+    no-repeat bottom;
+  background-size: cover;
+} */
+
+.magicCards{
+    display: flex;
+    position: relative;
+    z-index: 4;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 80px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    line-height: 35px;
+    gap: 35px;
+}
+
+.card1{
+    background-color: rgba(255, 136, 85, 0.958);
+    text-align: justify;
+    margin-top: 120px;
+    width: 420px;
+    height: 420px;
+    border: solid 8px orangered;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 8px 12px rgb(153, 117, 69);
+    padding-top: 35px;
+}
+
+.card2{
+    background-color: rgba(41, 156, 9, 0.984);
+    text-align: justify;
+    margin-top: 250px;
+    width: 380px;
+    height: 400px;
+    border: solid 8px rgba(130, 255, 96, 0.962);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 8px 12px rgb(153, 117, 69);
+    padding-top: 40px;
+}
+
+.card3{
+    background-color: rgba(18, 104, 162, 0.962);
+    text-align: justify;
+    margin-top: 450px;
+    width: 420px;
+    height: 420px;
+    border: solid 8px powderblue;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 8px 12px rgb(153, 117, 69);
+}
+
+@media screen and (max-width: 768px) {
+    .card1, .card2, .card3 {
+        animation: none;
+        transition: none;
+    }
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.scroller{
+    font-size: larger;
+    color: rgba(119, 45, 13, 0.965);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: grey 1px 1px;
+}
+.scroller:hover{
+    transform: scaleX(1.2);
+}
+
+.upArrow{
+    transform: scaleY(-1);
+    margin-bottom: 25px;
+    align-items: top;
+    justify-content: center;
+    margin-top:20px;
+    position: relative;
+    left: 48.5%;
+}
+
+.conclude {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-left: 150px;
+}
+
+.activities {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    border-radius: 18px;
+    padding-left: 150px;
+    opacity: 0.8;
+}
+.activities:hover{
+    transform: scale(1.2);
+}
+
+.camping {
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    width: 380px;
+    height: 280px;
+    border-radius: 30px;
+    padding-left: 150px;
+    opacity: 0.9;
+    border: 4px dashed rgb(241, 165, 207);
+    box-shadow: 6px 8px plum;
+}
+.camping:hover{
+    transform: scale(1.1);
+}
+
+.message {
+    font-family: 'Brush Script MT', cursive;
+    /* padding-right: 50px; */
+    font-size: 60px;
+    padding: 10px;
+    width: 900px;
+    line-height: 1.3;
+    color: rgb(225, 78, 127);
+    text-shadow: 1px -1px rgb(168, 90, 168);
+}
+
+.stick2{
+    padding-top: 50px;
+    transform: rotate(30deg);
+    width: 50px;
+}
+.stick2:hover{
+    transform: scale(1.2);
+}
+
+.conclude2{
+    gap: 60px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.message2{
+    font-family: 'Brush Script MT', cursive;
+    width: 900px;
+    padding-left: 70px;
+    padding-right: 80px;
+    font-size: 60px;
+    max-width: 900px;
+    line-height: 1.3;
+    margin-left: 180px;
+    padding-left: 70px;
+    color: rgb(167, 26, 249);
+    text-shadow: 2px -1px rgb(137, 150, 220);
+}
+
+.routes{
+    width: 580px;
+    background-position: center;
+    height: 380px;
+    border-radius: 20px;
+    margin-left: 150px;
+    border: dashed 3px burlywood;
+    box-shadow: 8px -10px rgb(224, 155, 66);
+}
+.routes:hover{
+    transform: scale(1.2);
+}
+
+.stick3{
+    margin-top: 140px;
+    display: flex;
+    margin-left: 700px;
+    justify-content: center;
+    transform: rotate(30deg);
+}
+.stick3:hover{
+    transform: scale(1.5);
+}
+
+.stick4{
+    margin-top: 50px;
+    margin-left: 180px;
+    /* margin-left: 80px; */
+    transform: rotate(20deg);
+}
+.stick4:hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(116, 212, 236, 0.5);
+    z-index: -2;
+    width: 100vw;
+    height: 116px;
+    bottom: 0;
+    overflow-x: hidden;
+}
+
+.girl{
+    z-index: 5;
+    position: absolute;
+}
+.girl:hover{
+    transform: skew(-12deg);
+}
+.end{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: large;
+    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: 2px 2px rgb(182, 151, 39);
+}
+
+@media screen and (max-width: 768px) {
+    .video-section{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex
+    }
+
+    .content{
+        /* display: flex; */
+        margin-top: 150px;
+        z-index: 2;
+    }
+
+    .earthshala {
+        font-size: 4rem;
+        font-weight: bolder;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    #start{
+        height: 30px;
+        max-height: 35px;
+        margin-bottom: 1px;
+    }
+
+    h4{
+        font-size: larger;
+        font-weight: bolder;
+        -webkit-text-stroke-width: 0.05px;
+    }
+
+    .downArrow{
+        width: 32px;
+        margin-top: 25px;
+        padding-bottom: 8px;
+    }
+
+    .bg {
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll; /* prevent parallax scroll effect */
+        height: auto; /* allows content to define height */
+        opacity: 1; /* optional: keep solid for clarity */
+        overflow: hidden; /* avoids scrollbars */
+    }
+
+    /* ✅ Remove animations/transitions from cards */
+    .card1, .card2, .card3 {
+        animation: none !important;
+        transition: none !important;
+        margin-top: 0 !important;
+        box-shadow: none;
+    }
+
+  /* ✅ MagicCards column layout with equal spacing */
+    .magicCards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 90%;      /* responsive width */
+        height: auto;    /* allow flexible height */
+        text-align: justify;
+    }
+
+    .body {
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .scroller {
+        display: none;
+    }
+
+    .scroller:hover {
+        transform: none;
+    }
+
+    .upArrow {
+        display: none;
+    }
+
+    .stick1,
+    .stick2,
+    .stick3,
+    .stick4 {
+        display: none;
+    }
+
+    .girl {
+        position: static;
+        margin: 15px auto;
+        display: block;
+        transform: none !important;
+    }
+
+    .girl:hover {
+        transform: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        background-color: rgba(116, 212, 236, 0.5);
+    }
+
+    .end {
+        margin-left: 0;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+}
+
+/* Devices: iPads, Nest Hub Max, Surface Pro 7, Asus Zenbook Fold */
+@media screen and (min-width: 1166px) and (max-width: 1400px) {
+    .magicCards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin: 40px auto;
+    }
+
+    .card1, .card2, .card3 {
+        width: 90%;
+        max-width: 340px;
+        height: auto;
+        margin-top: 0;
+        font-size: 1rem;
+        box-shadow: none;
+    }
+
+    .bg {
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+    .message, .message2 {
+        font-size: 32px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .stick1, .stick2, .stick3{
+        display: none;
+    }
+
+    .content{
+        margin-top: 90px;
+        font-size: large;
+    }
+
+    .earthshala {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        font-size: 50px;
+    }
+
+    #start {
+        width: 140px;
+        height: 40px;
+        margin-top: 0px;
+        font-size: medium;
+    }
+
+    .downArrow {
+        width: 35px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        animation: none;
+    }
+
+    .upArrow {
+        left: 47%;
+        transform: scaleY(-1);
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 100px;
+        padding: 20px;
+        text-align: center;
+        z-index: -10;
+        bottom: 0;
+    }
+
+    .end {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .conclude, .conclude2{
+        gap: 0px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: 900px;
+    }
+
+    .img-wrapper{
+        padding-left: 95px;
+        padding-right: 75px;
+        margin: 35px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 50px;
+        width: 500px;
+        max-width: 530px;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 400px;
+        height: 300px;
+        padding: 0px;
+        left: 490px;
+        opacity: 0.9;
+    }
+
+    .stick1, .stick2, .stick3{
+        display: none;
+    }
+
+    .message{
+        width: 1300px;
+        height: auto;
+        padding-left: 90px;
+        padding-right: 120px;
+        font-size: 55px;
+        text-shadow: none;
+        padding-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .message2{
+        margin-left: 150px;
+        height: auto;
+        padding-left: 120px;
+        padding-right: 120px;
+        font-size: 55px;
+        width: 1800px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 400px;
+        height: 250px;
+        margin-left: 380px;
+        margin-right: 280px;
+    }
+}
+
+/* iPad Pro Portrait (834px) and Landscape (1024px) */
+@media screen and (min-width: 880px) and (max-width: 1024px) {
+    .content{
+        margin-top: 160px;
+    }
+    .content h4{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .earthshala {
+        font-size: 85px;
+        font-weight: 900;
+    }
+
+    #start {
+        margin-top: 100px;
+        width: 190px;
+        height: 44px;
+        font-size: larger;
+        font-weight: 600;
+        -webkit-text-stroke-width: 0.05px;
+        -webkit-text-stroke-color: rgba(76, 5, 5, 0.943);
+    }
+
+    .downArrow {
+        width: 65px;
+        margin-left: 46%;
+        /* margin-top: ; */
+    }
+
+    .magicCards{
+        font-size: x-large;
+    }
+
+    .card1, .card2, .card3 {
+        animation: none !important;
+        transition: none !important;
+        margin-top: 0 !important;
+        box-shadow: none;
+    }
+
+  /* ✅ MagicCards column layout with equal spacing */
+    .magicCards {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        margin: 40px auto;
+        padding: 60px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 65%;      /* responsive width */
+        height: 350px;    /* allow flexible height */
+        text-align: justify;
+        padding: 25px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+
+    .conclude, .conclude2{
+        gap: 0px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: 900px;
+    }
+
+    .img-wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 35px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 20px;
+        width: 500px;
+        max-width: 530px;
+        height: 90%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 400px;
+        height: 300px;
+        padding: 0px;
+        left: 80%;
+        opacity: 0.9;
+    }
+
+    .message{
+        width: 820px;
+        height: auto;
+        padding-left: 90px;
+        padding-right: 50px;
+        font-size: 55px;
+        text-shadow: none;
+        padding-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .message2{
+        margin-left: 30px;
+        height: auto;
+        padding-left: 90px;
+        padding-right: 50px;
+        font-size: 55px;
+        width: 820px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 380px;
+        height: 250px;
+        margin-left: 250px;
+        margin-right: 150px;
+    }
+}
+
+/* iPad Mini Portrait & Landscape */
+@media screen and (min-width: 700px) and (max-width: 820px) {
+    .content{
+        margin-top: 180px;
+    }
+    
+    .earthshala {
+        font-size: 70px;
+        -webkit-text-stroke: 0.02px rgb(184, 247, 255);
+        text-shadow: rgb(184, 247, 255) 2px 2px;
+    }
+
+    .content h4 {
+        font-size: xx-large;
+        font-weight: 600;
+    }
+
+    .message{
+        width: 600px;
+        margin-right: 160px;
+    }
+
+    #start{
+        margin-top: 25px;
+        width: 180px;
+        font-size: larger;
+    }
+
+    .downArrow{
+        margin-left: 350px;
+    }
+
+    .magicCards{
+        font-size: larger;
+    }
+
+    .card1, .card2, .card3 {
+        animation: none !important;
+        transition: none !important;
+        margin-top: 0 !important;
+        box-shadow: none;
+    }
+
+  /* ✅ MagicCards column layout with equal spacing */
+    .magicCards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin: 20px auto;
+        padding: 60px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 65%;      /* responsive width */
+        height: auto;    /* allow flexible height */
+        text-align: justify;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .stick1, .stick2, .stick3, .stick4{
+        display: none;
+    }
+
+    .conclude, .conclude2{
+        gap: 0px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: 850px;
+    }
+
+    .img-wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 35px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 2px;
+        width: 500px;
+        max-width: 530px;
+        height: 90%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 400px;
+        height: 300px;
+        padding: 0px;
+        left: 80%;
+        opacity: 0.9;
+    }
+
+    .message{
+        width: 680px;
+        height: auto;
+        padding-left: 60px;
+        padding-right: 50px;
+        font-size: 55px;
+        text-shadow: none;
+        padding-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .message2{
+        margin-left: 30px;
+        height: auto;
+        padding-left: 60px;
+        padding-right: 50px;
+        font-size: 55px;
+        width: 680px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 380px;
+        height: 250px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+/* iphone devices and samsung phones screen */
+@media (min-width: 350px) and (max-width: 500px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .earthshala{
+        font-size: 30px;
+    }
+
+    .content{
+        font-size: large;
+    }
+
+    #start{
+        margin-top: 25px;
+        font-size: large;
+        width: 150px;
+        font-weight: bold;
+    }
+
+    .body{
+        width: 375px;
+        height: auto;
+    }
+
+    .flamingo{
+        display: none;
+    }
+
+    .conclude, .conclude2{
+        gap: 2px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: 550px;
+    }
+
+    .img-wrapper{
+        padding-left: 5px;
+        padding-right: 15px;
+        margin: 5px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 20px;
+        margin-left: 2px;
+        width: 250px;
+        max-width: 400px;
+        height: 80%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 70%;
+        height: 60%;
+        padding: 0px;
+        left: 20%;
+        opacity: 0.9;
+    }
+
+    .message{
+        width: 380px;
+        height: 150px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        font-size: 25px;
+        text-shadow: none;
+        padding-bottom: 0px;
+    }
+
+    .message2{
+        margin-left: 0px;
+        height: 100px;
+        padding-left: 35px;
+        padding-right: 30px;
+        font-size: 25px;
+        width: 380px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 280px;
+        height: 200px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    .footer{
+        margin-top: 15px;
+    }
+}
+
+/* Surface duo */
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .content h4{
+        font-size: x-large;
+    }
+
+    .earthshala{
+        font-size: 45px;
+    }
+
+    #start{
+        margin-top: 20px;
+        height: 40px;
+        width: 200px;
+        font-size: larger;
+    }
+
+    .downArrow{
+        width: 40px;
+    }
+
+    .stick1, .stick2, .stick3, .stick4, .flamingo{
+        display: none;
+    }
+
+    .conclude, .conclude2{
+        gap: 2px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: 550px;
+    }
+
+    .img-wrapper{
+        padding-left: 25px;
+        padding-right: 5px;
+        margin: 5px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 2px;
+        width: 350px;
+        max-width: 400px;
+        height: 80%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 70%;
+        height: 70%;
+        padding: 0px;
+        left: 60%;
+        opacity: 0.9;
+    }
+
+    .message{
+        width: 420px;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 60px;
+        font-size: 35px;
+        text-shadow: none;
+        padding-bottom: 0px;
+    }
+
+    .message2{
+        margin-left: 0px;
+        height: 100px;
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 35px;
+        width: 540px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 280px;
+        height: 200px;
+        margin-left: 120px;
+        margin-right: 30px;
+    }
+    
+    .footer{
+        height: 60px;
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+
+    .end{
+        font-size: small;
+    }
+}
+
+/* Nesthub */
+@media screen and (min-width: 1024px) and (max-width: 1166px){
+    .earthshala{
+        font-size: 65px;
+        font-weight: bolder;
+    }
+    #start{
+        margin-top: 25px;
+        height: 40px;
+        width: 200px;
+    }
+
+    .downArrow{
+        margin-top: 25px;
+        width: 50px;
+    }
+
+    .magicCards{
+        font-size: x-large;
+    }
+
+    .card1, .card2, .card3 {
+        animation: none !important;
+        transition: none !important;
+        margin-top: 0 !important;
+        box-shadow: none;
+    }
+
+  /* ✅ MagicCards column layout with equal spacing */
+    .magicCards {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin: 40px auto;
+        padding: 60px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 85%;      /* responsive width */
+        height: auto;    /* allow flexible height */
+        text-align: justify;
+        padding: 15px;
+        margin-bottom: 10px;
+        line-height: 40px;
+    }
+
+    .conclude, .conclude2{
+        gap: 0px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: auto;
+        margin-left: 40px;
+        padding-left: 30px;
+    }
+
+    .img-wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 35px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 20px;
+        width: 500px;
+        max-width: 530px;
+        height: 90%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 400px;
+        height: 300px;
+        padding: 0px;
+        left: 80%;
+        opacity: 0.9;
+    }
+
+    .message{
+        width: 820px;
+        height: auto;
+        padding-left: 90px;
+        padding-right: 50px;
+        padding-top: 70px;
+        font-size: 55px;
+        text-shadow: none;
+        padding-bottom: 0px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+
+    .message2{
+        margin-left: 30px;
+        height: auto;
+        padding-left: 90px;
+        padding-right: 50px;
+        font-size: 55px;
+        width: 820px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 380px;
+        height: 250px;
+        margin-left: 250px;
+        margin-right: 150px;
+    }
+
+    .stick3{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 350px){
+    .content h4{
+        font-size: larger;
+    }
+    .earthshala{
+        font-size: 40px;
+    }
+
+    #start{
+        margin-top: 40px;
+        height: 180px;
+    }
+
+    .downArrow{
+        width: 40px;
+    }
+
+    .stick1, .stick2, .stick3, .stick4, .flamingo{
+        display: none;
+    }
+
+    .conclude, .conclude2{
+        gap: 2px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 0px;
+        height: 550px;
+    }
+
+    .img-wrapper{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 5px;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .activities{
+        margin-left: 2px;
+        width: 250px;
+        max-width: 400px;
+        height: 80%;
+        object-fit: cover;
+        opacity: 0.85;
+    }
+    .camping{
+        top: 40%;
+        width: 70%;
+        height: 60%;
+        padding: 0px;
+        left: 20%;
+        opacity: 0.9;
+    }
+
+    .message{
+        width: 320px;
+        height: auto;
+        padding-left: 30px;
+        padding-top: 25px;
+        padding-right: 30px;
+        font-size: 25px;
+        text-shadow: none;
+        padding-bottom: 0px;
+    }
+
+    .message2{
+        margin-left: 0px;
+        height: 100px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 25px;
+        width: 340px;
+        text-shadow: none;
+    }
+
+    .routes{
+        width: 280px;
+        height: 200px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+}
