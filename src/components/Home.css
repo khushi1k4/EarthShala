@@ -93,7 +93,7 @@ h4{
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(165, 42, 42, 0.145);
-    margin-top: 85px;
+    margin-top: 65px;
     border: rgba(117, 8, 8, 0.902) solid 2px;
     border-radius: 15px;
     font-weight: 500;
@@ -103,8 +103,8 @@ h4{
 }
 
 .downArrow{
-    margin-top: 300px;
-    width: 80px;
+    margin-top: 50px;
+    width: 60px;
     margin: 40px;
     background: transparent;
     animation: pulseGlow 2s infinite;
@@ -264,7 +264,7 @@ h4{
 .camping {
     position: absolute;
     top: 120px;
-    left: 450px;
+    left: 250px;
     width: 300px;
     height: 180px;
     border-radius: 30px;
@@ -280,7 +280,7 @@ h4{
 .message {
     font-family: 'Brush Script MT', cursive;
     /* padding-right: 50px; */
-    font-size: 60px;
+    font-size: 45px;
     padding: 10px;
     margin-right: 5vw;
     width: 580px;
@@ -312,7 +312,7 @@ h4{
     padding-left: 70px;
     padding-right: 80px;
     margin-right: 5vw;
-    font-size: 60px;
+    font-size: 42px;
     max-width: 600px;
     line-height: 1.3;
     margin-left: 180px;
@@ -322,8 +322,9 @@ h4{
 }
 
 .routes{
-    width: 300px;
+    width: 370px;
     background-position: center;
+    object-fit: cover;
     height: 300px;
     border-radius: 20px;
     margin-left: 150px;

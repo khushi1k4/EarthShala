@@ -9,14 +9,14 @@ const Tips = () => {
 
           {/* <!-- First Inner Div with conversation (left-aligned and responsive) --> */}
           <div className="gossip bg-white rounded-lg shadow-md text-left hover:skew-x-2">
-            <h3 className='font-bold text-red-500 sm:text-4xl text-2xl shadow-amber-800 mt-2 ml-3'>
+            <h3 className='font-bold text-red-500 sm:text-3xl text-xl shadow-amber-800 mt-2 ml-3'>
               “Nature's Selfie, But Earth Forgot to Smile”
             </h3>
             <h6 className='set text-red-900'>
               (Living room. TV is on. News plays. Ishita scrolls her phone. Aryan watches quietly.)
             </h6>
 
-            <p className='g-1 text-base md:text-lg lg:text-[24px] leading-relaxed'>
+            <p className='g-1 text-base md:text-sm lg:text-[20px] leading-relaxed'>
         <strong>TV Reporter:</strong> “Floods in Assam while parts of Maharashtra report the driest summer in decades. Climate is breaking.”
         <br/>
         <span className='font-semibold text-red-500'>Ishita (shocked):</span>Floods and droughts? Together? Last week, forest fire happened in Uttarakhand.
@@ -54,7 +54,7 @@ const Tips = () => {
       </div>
 
 
-      <div className="cardBox bg-blue-100 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="cardBox bg-blue-100 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-15">
         <div className="text-center lg:col-span-3 sm:col-span-2">
           <h2 className='head text-center pacifico-regular text-[15px] sm:text-[20px] md:text-[35px] text-red-900'>REALISTIC TECHNIQUES & TIPS TO PROTECT ENVIRONMENT</h2>
           <h3 className='text-center text-red-950 text-[12px] md:text-[18px]'>
